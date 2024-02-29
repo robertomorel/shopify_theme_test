@@ -1,0 +1,11 @@
+<html>
+  <head>
+    {% comment %} TAG: content_for_header -> Plugins to add scripts {% endcomment %}
+    {{ content_for_header }}
+  </head>
+
+  <body>
+    {% comment %} TAG: content_for_layout -> Template data will be plugged in {% endcomment %}
+    {{ content_for_layout }}
+  </body>
+</html>
